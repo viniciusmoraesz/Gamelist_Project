@@ -1,0 +1,345 @@
+*{
+    box-sizing: border-box;
+    padding: 0;   
+    margin: 0; 
+    
+}
+
+
+/*.ultimate{
+    display: flex;
+    flex-direction: column;
+    max-height: 10000vh;
+    max-width: 100vw;
+    margin: 0vh auto;
+} */
+
+/* Formatação da área de cima do site, a borda foi de mamas */
+.header{
+    background-color: var(--headercolor);
+    height: 7.5vh;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.search{
+    background-color: transparent;
+    min-height: 1vh;
+    margin: 0vh 1vw 0px 50vw;
+    padding: 10px;
+}
+
+#search{
+    height: 4vh;
+    width: 15vw;
+    border-radius: 5px;
+    border: 0px;
+    background-color: var(--searchcolor);
+    color: var(--textcolor);
+    font-size: 17px;
+    background-image: url(../images/magnifying-glass-solid.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 95% 50%;
+    padding: 20px;
+    color: var(--textcolor);
+}
+
+#search:focus {outline:none;}
+
+.searchbracket{
+    background-color: transparent;
+}
+
+.log{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 4vh;
+    width: 5vw;
+    border-radius: 10px;
+    margin: 0.6vh 0.35vw 0px 0vw;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    background-color: var(--logcolor);
+}
+
+.log:hover{
+    background-color: var(--hovlogcolor);
+}
+
+.flog{
+    font-size: 19px;
+    color: #ed2939;
+    text-decoration: none;
+    font-weight: 550;
+    color: var(--textcolor);
+    background-color: transparent;
+}
+
+.logbracket{
+    font-size: 19px;
+    background-color: transparent;
+    margin: 1px;
+    color: var(--textcolor);
+}
+
+.reg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 3.8vh;
+    width: 6vw;
+    border-radius: 10px;
+    margin: 0.7vh 0vw;
+    /* padding: 7.5px; */
+    background-color: var(--regcolor);
+}
+
+.reg:hover{
+    background-color: var(--hovregcolor);
+}
+
+.freg{
+    font-size: 19px;
+    text-decoration: none;
+    margin: 0px 0px;
+    font-weight: 550;
+    color: var(--textcolor);
+    background-color: transparent;
+}
+
+.regbracket{
+    font-size: 19px;
+    background-color: transparent;
+    color: var(--textcolor);
+}
+
+.logo{
+    min-width: 100%;
+    height: 10vh;
+    width: 15vw;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--header2color);
+}
+
+.klogo{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--header2color);
+    width: 10vw;
+    height: 4vh;
+    margin: 0px 2vw;
+    padding: 15px;
+}
+
+.flogo{
+    width: 12vw;
+    height: 6vh;
+    margin: 0vh 0vw 0vh 0vw;
+    background-color: var(--header2color);
+    color: var(--header2color);
+}
+
+.fabout{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--header2color);
+    height: 0vh;
+    width: 0.vw;
+}
+
+.about{
+    font-size: 18px;
+    color: white;
+    height: 2.5vh;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: crimson;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.about:hover{
+    background-color: rgb(219, 48, 82);
+}
+
+/* Parte debaixo do site */
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{
+    margin-top: top;
+    width: 50vw;
+}
+
+.icons{
+    width: 4vw;
+    height: 5vh;
+    display: flex;
+    margin: 0px 75vw;
+}
+
+.icon{
+    font-size: 30px;
+    margin: 1.5vh 0px 0px 0px;
+    box-sizing: border-box;
+    color: #eff9d6;
+}
+
+.icon:hover{
+    color: crimson;
+}
+
+
+div{
+    background-color: transparent;
+}
+
+
+/* Título do "Our Goals" */
+.explanations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.our-goals{
+    background-color: var(--headercolor);
+    width: 35vw;
+    height: 730px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    color: var(--textcolor);
+}
+
+.our-goals ol {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 25px;
+}
+
+.title{
+    color: var(--textcolor);
+}
+
+.titlemaster{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.titlemaster li {
+    text-align: left;
+    list-style-type: upper-roman;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 35px;
+    word-spacing: 2.5px;
+    letter-spacing: 0px;
+}
+
+/* Formatação da lista, distância da lista para o título */
+.listamaster{
+    margin: 2vh 0px 0vh 0vw;
+    max-width:30vw;
+    background-color: var(--headercolor);
+}
+
+.icon p{
+    margin: auto
+}
+
+li{
+    list-style: none;
+    background-color: var(--headercolor);
+}
+
+/* Divisão entre as listas. */
+.lista{
+    margin:0px 0px 3vh 0px;
+    word-spacing: 1.5px;
+    color: var(--textcolor);
+    background-color: var(--headercolor);
+}
+
+ol{
+    background-color: transparent;
+}
+
+li{
+    background-color: transparent;
+}
+
+.aboot{
+    background-color: var(--headercolor);
+    width: 35vw;
+    height: 730px;
+    margin: 12.5vh 2vw;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.aboot h2{
+    color: var(--textcolor);
+    background-color: transparent;
+    font-weight: 900;
+    font-size: 35px;
+    word-spacing: 2.5px;
+    letter-spacing: 0px;
+    margin: 0vh 0vw 1vh;
+}
+
+.aboot p{
+    color: var(--textcolor);
+    background-color: transparent;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 0vh 0vw 2vh;
+}
+
+.devs{
+    text-align: center;
+}
+
+.more-text {
+    margin-bottom: 50px;
+}
+
+.navigation-top{
+    background-color: var(--headercolor);
+}
+
+.navigation-list{
+    background-color: transparent;
+}
+
+.navigation-item{
+    background-color: transparent;
+}
+
+#search-input{
+    background-color: var(--textcolor);
+}

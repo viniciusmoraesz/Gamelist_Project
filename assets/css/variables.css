@@ -1,0 +1,49 @@
+:root{
+    --bgcolor: #474787;
+    --textcolor: #ECECEC;
+    --headercolor: #2C2C54;
+    --logcolor: #091b2e;
+    --hovlogcolor: #16314e;
+    --regcolor: #3855fc;
+    --hovregcolor: #5971fd;
+    --header2color: #2C2C54;
+    --searchcolor: #091829;
+    --footercolor: #383870;
+    --color-dark-indigo: #2C2C54;
+    --color-deep-purple-gray: #474787;
+    --color-gray: #AAABBB;
+    --color-light-gray: #ECECEC;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+* {
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--color-deep-purple-gray);
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    height: ;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: var(--color-deep-purple-gray);
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    height: ;
+}

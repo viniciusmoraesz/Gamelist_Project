@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="../css/Login.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/accessibility.css">
+</head>
+<body>
+    <div class="accessibility">
+        <div class="access-box-1 audio" title="Recurso de Acessibilidade - Libras">
+            <i class="access-icon fa-solid fa-hands"></i>
+        </div>
+
+        <div class="access-box-2 visual" title="Recurso de Acessibilidade - Braille">
+            <i class="access-icon fa-solid fa-eye"></i>
+        </div>
+        <div class="access-box-3">
+            <p>Recursos assistivos</p>
+        </div>
+    </div>
+    <header>
+        <nav class="navigation-top">
+            <ul class="navigation-list">
+                <li class="navigation-item" id="log"><a href="Login.html" title="Login Page">Login</a></li>
+                <li class="navigation-item" id="reg"><a href="Register.html" title="Register Page">Register</a></li>
+                <li class="navigation-item"><a href="about.html" title="About Us Page">About Us</a></li>
+                <li class="navigation-item"><a href="reviews.html" title="Reviews Page">Reviews</a></li>
+                <li class="navigation-item"><a href="table1.html" title="Table One Page">Table One</a></li>
+                <li class="navigation-item"><a href="table2.html" title="Table Two Page">Table Two</a></li>
+            </ul>
+            <div class="navigation-search">
+                <input type="search" name="search-input" id="search-input" placeholder="Search something...">
+                <button type="submit" id="enviar-input-nav"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+            </div>
+            <div class="navigation-logo">
+                <span><a href="../../main.html" style="color: #fff;">GameList</a></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="ultimate">
+
+
+
+
+
+    <main class="main">
+        <div class="registration">
+            <div class="internalreg">
+                <h1 style="margin: 10px 0px;">LOGIN</h1>
+                <form id="data" name="data" method="post" action="">
+                    <div class="regdiv" style="flex-direction: column;">
+                        <input style="padding-left: 40px;" type="email" id="email" name="email" placeholder="Email/Username (required)" required
+                            class="regcheck">
+                            <i class="fa-solid fa-at"></i>
+                        <input style="padding-left: 40px;" type="password" id="password" name="password" placeholder="Password (required)" required
+                            maxlength="20" minlength="8" class="regcheck">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+    
+    
+                    <div style="padding: 5px 0px; margin: 0px auto; background-color: gray; display: flex; align-items: center; justify-content: space-evenly; width: 90%; border-radius: 10px;">
+                        <input type="checkbox" name="check_notrobot" id="check_notrobot" style="width: 40px; height: 40px;" required>
+                        <p style="margin: 0px;">I'm not a robot</p>
+                    </div>
+    
+    
+                    <div>
+                        <input type="submit" value="LOG IN" class="confirmbutton" title="Entrar na conta">
+                    </div>
+                </form>
+                <p>Not registered yet? <a href="Register.html" style="color: #fff;">Create one.</a></p>
+            </div>
+
+            <div class="welcome">
+                
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="footer-links">
+
+            <ul>
+                <li><a href="./assets/pages/about.html" target="_blank">About Us</a></li>
+                <li><a href="./assets/pages/terms.html" target="_blank">Terms</a></li>
+                <li><a href="./assets/pages/privacy.html" target="_blank">Privacy</a></li>
+                <li><a href="./assets/pages/help.html" target="_blank">Help</a></li>
+            </ul>
+
+        </div>
+
+        <hr>
+
+        <div class="footer-paragraph">
+
+            <div class="footer-translate-box">
+                <i class="fa-solid fa-earth-americas"></i>
+                <h1>English</h1>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <p class="paragraph-footer">©2024 GAMELIST. All rights reserved. GAMELIST and its logo are registered and unregistered trademarks in the US and other countries. Unauthorized use is strictly prohibited and subject to legal action. We thank you for your understanding.</p>
+
+        </div>
+
+    </footer>
+    <script>
+        const form = document.querySelector('#data')
+        form.addEventListener('submit', e=>{
+            e.preventDefault()
+            window.location.href = '../../main.html'
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+footer{
+    width: 100%;
+    height: 210px;
+    background-color: var(--color-dark-indigo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-links ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+.footer-links a{
+    color: var(--color-light-gray);
+}
+
+
+.footer-paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-translate-box{
+    width: 400px;
+    height: 25px;
+    border: 1px solid var(--color-light-gray);
+    padding: 10px 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.footer-translate-box h1{
+    font-size: 1.5rem;
+    color: var(--color-light-gray);
+    margin: 0;
+}
+
+.paragraph-footer{
+    font-size: 1.0rem;
+    color: var(--color-light-gray);
+    margin: 0 20px;
+}
+
+.fa-chevron-down{
+    font-size: 1.0rem;
+    color: var(--color-light-gray);
+}
+
+.fa-earth-americas{
+    font-size: 2.0rem;
+    color: var(--color-light-gray);
+}
+
+hr{
+    width: 97.5%;
+}

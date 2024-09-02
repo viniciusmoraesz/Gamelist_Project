@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0px;
+}
+
+h1{
+    padding: 5px;
+    margin: 25vh 0vw 2.5vh;
+    text-align: center;
+    color: var(--color-light-gray);
+}
+
+body {
+    background-color: var(--color-deep-purple-gray);
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: var(--color-deep-purple-gray);
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+:root {
+
+    --color-dark-indigo: #2C2C54;
+    --color-deep-purple-gray: #474787;
+    --color-gray: #AAABBB;
+    --color-light-gray: #ECECEC;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    display: table;
+    table-layout: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    height: 50%;
+    margin-bottom: 500px;
+}
+
+th, td {
+    padding: 26px; 
+    text-align: center;
+    border: 1px solid var(--color-gray);
+    color: var(--color-light-gray);
+}
+
+th {
+    background-color: var(--bgcolor);
+}
+
+h1{
+    text-align: center;
+}
+
+.ultimate{
+    background-color: var(--bgcolor);
+}
+
+
+
+.WWMed{
+    background-color: #18182e;
+}

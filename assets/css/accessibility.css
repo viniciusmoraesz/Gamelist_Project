@@ -1,0 +1,45 @@
+.access-icon{
+    color: var(--color-light-gray);
+    font-size: 1.5rem;
+}
+
+.accessibility {
+    position: fixed;
+    top: 22%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.access-box-1, .access-box-2{
+    background-color: #003087;
+    padding: 11px 19px;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid var(--color-light-gray);
+    cursor: pointer;
+}
+
+
+.access-box-1:hover, .access-box-2:hover, .access-box-3:hover{
+    background-color: #011d52;
+}
+
+.access-box-3{
+    background-color: #003087;
+    border: 2px solid var(--color-light-gray);
+    color: var(--color-light-gray);
+    position: fixed;
+    top: 37%;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+    padding: 10px 10px;
+    
+}
+
+.access-box-3 p{
+    font-size: 0.7rem;
+
+}
